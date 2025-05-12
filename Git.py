@@ -5,7 +5,7 @@ def guess_number_game():
     # 生成一个1到100之间的随机数
     target_number = random.randint(1, 100)
     attempts = 0  # 记录尝试次数
-
+    
     print("欢迎来到猜数字游戏！")
     print("我已经想好了一个1到100之间的数字。")
     print("你能猜到它是什么吗？")
